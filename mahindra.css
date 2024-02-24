@@ -1,0 +1,943 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   
+}
+
+
+
+
+
+
+
+.navlogo {
+    display: flex;
+    background-color: black;
+    padding: 5px;
+
+}
+
+#logo {
+    color: white;
+    margin-left: 2em;
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.nav {
+  
+    display: flex;
+    margin-left: 5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+.link {
+    margin-right: 1px;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+ 
+    /* position: relative; */
+    
+  
+}
+.link:hover
+{
+    
+      color: red;
+
+}
+
+.arrow {
+
+    border: 1px solid white;
+    border-width: 0 2.5px 2.5px 0;
+    display: inline-block;
+    position: relative;
+    padding: 3px;
+    transform: rotate(45deg);
+    color: red;
+}
+.arrow:hover {
+    border: solid red;
+    border-width: 2.5px 0px 0px 2.5px;
+  
+
+}
+
+.subimg
+{
+    margin-left: 1em;
+    display: flex;
+}
+.wrapimg
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+#sildepic {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    animation: silde 10s linear 1s infinite ease-in-out;
+}
+
+.nav-bottom {
+
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+
+
+}
+
+.link-bottom {
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.link-bottom:hover
+{
+    color: red;
+}
+
+.text-one {
+    margin: 30px;
+    text-align: center;
+
+}
+
+.gridd {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    margin-left: 9em;
+    margin-right: 7em;
+}
+
+#gridd1 {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.bottom-left {
+
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  
+}
+
+
+#bottomleft {
+
+    width: 400px;
+    height: 170px;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+#bottomleft:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+
+
+.text-two {
+    margin: 30px;
+    text-align: center;
+
+}
+
+.text-three {
+    margin-top: 3em;
+    margin-left: 7em;
+}
+
+.himg {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 100px;
+    margin-right: 2px;
+
+
+}
+
+.border {
+    border: 2px solid rgba(128, 128, 128, 0.321);
+    margin: 0px;
+    margin-left: 5px;
+    padding: 40px;
+    font-size: medium;
+    width: 314px;
+    height: 150px;
+    color: red;
+    font-weight: 700;
+}
+
+.imgs {
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.section-one {
+
+    background-color: antiquewhite;
+    margin: 1em;
+    width: 100%;
+    height: 50em;
+
+
+
+}
+
+.latest-block {
+    display: flex;
+   
+}
+
+.gridd-two {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    margin-left: 5em;
+    margin-right: 7em;
+}
+
+
+/* .div-wrap
+{
+    display: flex;
+
+} */
+.women {
+
+    margin: 40px;
+    display: flex;
+    transition: transform 2s, filter 1.5s ease-in-out;
+
+
+}
+
+.women-two {
+    display: flex;
+    margin: 40px;
+
+}
+
+#joinn {
+    border: 1px solid blanchedalmond;
+    width: 700px;
+    height: 290px;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    padding: 50px;
+    line-height: 3em;
+}
+
+
+
+#joinn:hover {
+    background-color: red;
+}
+.learn-more:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#joinnn:hover {
+    background-color: red;
+}
+
+.women:hover {
+    background-color: red;
+    transform: scale(1.1);
+
+}
+
+.footer {
+    background-color: black;
+    margin: 0px;
+
+}
+
+.list li a {
+    color: grey;
+    text-decoration: none;
+
+}
+
+.list li a:hover {
+    color: white;
+
+}
+
+.footer-logo {
+    color: white;
+    margin-left: 20em;
+    font-size: xx-large;
+
+    margin-top: 2em;
+    padding: 20px;
+
+
+}
+
+.footer-menu {
+    margin: 2em;
+    display: flex;
+
+}
+
+.row {
+    display: flex;
+
+    /* margin: 2em; */
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+li {
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 1em;
+}
+
+.footer-bottom {
+    display: flex;
+    top: 40px;
+    left: 60px;
+    background-color: black;
+    margin: 0px;
+}
+
+.terms ul {
+    display: flex;
+    margin-left: 3em;
+
+
+}
+
+
+.social {
+    display: flex;
+    margin-left: 35em;
+}
+
+.termss {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+
+    background-color: red;
+    top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.link::after {
+    display: block;
+    position: relative;
+
+}
+
+.wrap-women {
+
+    margin: 120px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.learn-more {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5em;
+    position: relative;
+    top: 3em;
+}
+
+
+
+.women .learn-more:hover {
+    background-color: white;
+}
+
+.women-main {
+    background-color: rgba(250, 235, 215, 0.258);
+}
+
+.row,
+.row-two {
+    display: flex;
+
+
+}
+
+.inclusive,
+.our-vision {
+    position: relative;
+    top: 10em;
+    left: 2em;
+
+
+}
+
+.women-story {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 1em;
+}
+
+.womens {
+
+    margin: 1em;
+    background-color:white;
+
+}
+
+.womens:hover {
+
+    margin: 1em;
+    background-color: red;
+    color: aliceblue;
+
+
+
+}
+.text:hover
+{
+    color: white;
+}
+
+.whwomen:hover {
+    color: white;
+}
+
+.stories {
+
+    padding: 2em;
+    height: 90em;
+}
+
+.whwomen {
+    width: 450px;
+    height: 330px;
+}
+
+.text {
+    margin: 2em;
+    line-height: 1em;
+    color: grey;
+}
+
+
+
+.name {
+    color: black;
+    font-size: larger;
+    line-height: 2em;
+}
+
+.text-height {
+    line-height: 1.9em;
+}
+
+.svg {
+    margin-top: 2em;
+}
+.svg:hover
+{
+    color: white;
+}
+
+#read-more {
+    border-bottom: 1px solid black;
+    color: red;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+#read-more:hover
+{
+    color: white;
+}
+
+#DRIVING {
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+#ourculture {
+    margin-left: 7em;
+    display: flex;
+
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    color: red;
+}
+
+.align1 {
+
+    padding: 1em;
+    font-size: larger;
+}
+
+#wrap {
+    margin: 5em;
+    display: flex;
+    width: 70em;
+
+}
+
+#wrap2 {
+    margin-top: 13em;
+    margin-left: 3em;
+    font-size: 1.2em;
+
+}
+
+#wrap-three {
+    text-align: center;
+    line-height: 2em;
+}
+
+.wrap-four {
+    display: flex;
+
+    margin: 0.5em;
+    width: 70em;
+
+}
+
+.mp {
+    margin-top: 10em;
+    margin-left: 2em;
+    line-height: 1.1em;
+}
+
+.job {
+    margin: 3em;
+    font-size: larger;
+}
+
+.wrap-job {
+    display: flex;
+    margin: 1em;
+    padding: 2em;
+}
+
+.job-ul {
+    margin-top: 4em;
+    margin-left: 2em;
+    line-height: 3em;
+
+}
+
+.job-li {
+    border-bottom: 1px solid black;
+    font-size: 2em;
+
+
+
+}
+
+.weoffer {
+    margin-left: 2em;
+
+}
+
+.flexrow {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.flexx {
+    position: relative;
+    margin: 1em;
+
+
+
+
+}
+
+.overtext {
+
+    position: absolute;
+    bottom: 1em;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+.digital {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.lastsec {
+    background-color: rgba(250, 235, 215, 0.26);
+}
+
+.weoffer {
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+.shape-wrap {
+    display: flex;
+
+    margin-left: 3em;
+    padding: 4em;
+}
+
+.shapefuture {
+    margin-top: 8em;
+    margin-left: 4em;
+    line-height: 2em;
+    font-size: larger;
+}
+
+.silde-pic {
+    position: relative;
+}
+
+.overlap {
+    position: absolute;
+    top: 15em;
+    left: 5em;
+    line-height: 2em;
+    color: white;
+    font-size: larger;
+}
+
+.autooverlap {
+    position: absolute;
+    top: 12em;
+    left: 4em;
+    line-height: 2em;
+    color: white;
+    font-size: larger;
+}
+
+.quick-mp {
+    background-color: antiquewhite;
+    /* margin: 2em; */
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.gridd2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    margin-left: 9em;
+    margin-right: 7em;
+    margin-top: 3em;
+}
+
+#gridd2 {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.bottom-left2 {
+
+    position: absolute;
+    bottom: 1.5em;
+    left: 1.5em;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+#bottomleft2 {
+
+    width: 400px;
+    height: 300px;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+#bottomleft2:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+
+
+.gridd3 {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0em;
+    /* margin-left: 3em; */
+    /* margin-right: 3em; */
+    /* margin-top: 3em; */
+}
+
+#gridd3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 1em;
+
+}
+
+.bottom-left3 {
+
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+
+#bottomleft3 {
+
+    width: 450px;
+    height: 250px;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+#bottomleft3:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+
+
+
+.gridd4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    row-gap: 1em;
+    column-gap: 1em;
+
+
+
+
+}
+
+#gridd4 {
+    position: relative;
+
+
+
+}
+
+
+
+.bottom-left4 {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    line-height: 1.7em;
+    font-size: 1.5em;
+    color: white;
+    
+
+}
+#bottomleft4 {
+
+    width: 430px;
+    height: 300px;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+#bottomleft4:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+.reflex {
+    display: flex;
+    margin-left: 8em;
+    margin-top: 1.5em;
+}
+
+.reposition {
+    position: relative;
+}
+
+.reimg {
+    width: 400px;
+    height: 250px;
+    margin: 1em;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+.repositiona {
+    position: absolute;
+    bottom: 3em;
+    left: 1em;
+    font-size: 17px;
+    color: white;
+   
+}
+
+.reimg:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+
+.hoflex {
+    display: flex;
+    margin-left: 17em;
+    margin-top: 1.5em;
+}
+
+.hoposition {
+    position: relative;
+}
+
+.hoimg {
+    width: 450px;
+    height: 300px;
+    margin: 1em;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+.hopositiona {
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+    font-size: 17px;
+    color: white;
+   
+}
+
+.hoimg:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+.esflex {
+    display: flex;
+    margin-left: 2em;
+    margin-top: 1.5em;
+
+}
+
+.esposition {
+    position: relative;
+}
+
+.esimg {
+    width: 450px;
+    height: 300px;
+    margin: 1em;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+
+}
+
+.espositiona {
+    position: absolute;
+    bottom: 3em;
+    left: 2em;
+    font-size: 17px;
+    color: white;
+   
+}
+
+.esimg:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+.email
+{
+    margin-left: 10em;
+    padding: 2em;
+    line-height: 3em;
+    font-size: larger;
+}
+.emailbimg
+{
+    display: flex;
+    margin-left: 24em;
+    font-size: 1.3em;
+   
+}
